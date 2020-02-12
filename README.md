@@ -25,12 +25,12 @@ There are also native windows packages and the Cygwin based approach, both of wh
 
 Whichever approach you choose to use, the next step is to generate a key.
 
-It's quite straight forward.  You will generally run `gpg --gen-key` and it will take you through a series of questions including `Full Name` and `E-Mail Address`.  Please be sure to use your `amwater.com` E-Mail address.
+It's quite straight forward.  You will generally run `gpg --gen-key` and it will take you through a series of questions including `Full Name` and `E-Mail Address`.  Please be sure to use your `foo.com` E-Mail address.
 
 Once you have done this, you can run the following command to generate an ASCII Armored export of your public key:
 
 ```
-gpg --export --armor YOUR_EMAIL@amwater.com
+gpg --export --armor YOUR_EMAIL@foo.com
 ```
 
 The contents of this will start with:
